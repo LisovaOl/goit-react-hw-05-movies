@@ -1,14 +1,35 @@
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
 
 export const Home = () => {
   return (
     <div>
-        <h1>Trends</h1>
-          <Link to="#">Film</Link>
-          <Link to="#">Film</Link>
+      <h1>Trends</h1>
 
-          <Link to="#">Film</Link>
-          <Link to="#">Film</Link>
+      <ul>
+        <li>
+          <a href="#">film</a>
+        </li>
+        <li>
+          <a href="#">film</a>
+        </li>
+
+        <li>
+          <a href="#">film</a>
+        </li>
+
+        <li>
+          <a href="#">film</a>
+        </li>
+
+        <li>
+          <a href="#">film</a>
+        </li>
+      </ul>
+      {/* <Link to="#">film</Link>
+          <Link to="#">film</Link>
+
+          <Link to="#">film</Link>
+          <Link to="#">film</Link> */}
 
       <Outlet />
     </div>
